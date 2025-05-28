@@ -1,0 +1,238 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #fefefe;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.highlight {
+  color: #ff7c45;
+}
+
+.btn {
+background-color: #ff7c45;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+/* Header */
+.header {
+  padding: 20px 0;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff7c45;
+}
+
+.navbar a {
+  margin-left: 20px;
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.navbar .signup {
+  margin-left: 40px;
+  background-color: #ff7c45;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 6px;
+}
+
+/* Hero */
+.hero {
+  padding: 60px 0;
+  background-color:white;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.hero-text h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.hero-image img {
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Stay Home Section */
+.stay-home {
+  padding: 60px 0;
+  background-color: white;
+}
+
+.stay-home-content {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.stay-home .image img {
+  width: 100%;
+  max-width: 400px;
+}
+
+.stay-home .text h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.stay-home .text p {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Top Food */
+.top-food {
+  padding: 60px 0;
+  background-color: white;
+}
+
+.top-food h2 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.food-cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+  padding-bottom: 20px;
+  width: 250px;
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card h3 {
+  margin: 15px 0 5px;
+  font-size: 18px;
+}
+
+.card p {
+  color: #777;
+  font-size: 14px;
+}
+
+/* Download Section */
+.download {
+  padding: 60px 0;
+  background-color: white;
+}
+
+.download-content {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.download .text h2 {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.download .text p {
+  color: #555;
+}
+
+.download .image img {
+  width: 100%;
+  max-width: 350px;
+}
+
+/* Subscribe */
+.subscribe {
+  padding: 60px 0;
+  background-color: #ff7c45;
+  color: white;
+  text-align: center;
+}
+
+.subscribe h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.subscribe-form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.subscribe-form input[type="email"] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 300px;
+}
+
+.subscribe-form .btn {
+  background-color: white;
+  color: #ff7c45;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.subscribe-form{
+ background-color: #ff7c45;
+}
+.containerr{
+  width: 838.5;
+  height: 78;
+  top: 3156.45px;
+  left: 303.75px;
+  border-width: 1px;
+}
